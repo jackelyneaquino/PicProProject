@@ -1,0 +1,5 @@
+@import "./global.css";
+@import "./body/header.css";
+@import "./body/detalhesConta.css";
+@import "./body/detalhesTransacao.css";
+@import "./body/footer.css";

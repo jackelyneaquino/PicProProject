@@ -1,0 +1,183 @@
+/* imagem e o nome do perfil */
+.bgDetalhesConta {
+    padding: 60px 0 30px;
+  }
+  
+  .sobreUsuario {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sobreUsuarioDados {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sobreUsuarioDados figure img {
+    width: 100%;
+    max-width: 50px;
+  }
+  
+  .sobreUsuarioDados p {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .sobreUsuarioDados p strong {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* ícones */
+  
+  .sobreUsuarioIcones {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sobreUsuarioIcones img {
+    width: 100%;
+    max-width: 50px;
+    margin: 0 10px;
+  }
+  
+  /* saldo */
+  .sobreDados {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 30px 0;
+  }
+  
+  .saldo {
+    display: block;
+  }
+  
+  .saldo p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+  
+  .saldoValor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .saldoValor p {
+    font-weight: 600;
+  }
+  
+  .saldoValor img {
+    width: 100%;
+    max-width: 30px;
+    margin-left: 10px;
+  }
+  
+  .saldoBotao {
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* transações */
+  
+  .sobreTransacoes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .opcoesTransacoes {
+    background-color: #1f6f54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    cursor: pointer;
+  }
+  
+  .opcoesTransacoes p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+    color: white;
+  }
+  
+  .qrCode figure {
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* icones */
+  
+  .opcoesTransacoes figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .qrCode figure {
+    background-image: url('../../img/qrcode.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+  }
+  .pix figure {
+    background-image: url('../../img/pix.png');
+  }
+  .pagarBoleto figure {
+    background-image: url('../../img/codigo.png');
+    width: 100%;
+    max-width: 65px;
+  }
+  
+  .cobrar figure {
+    background-image: url('../../img/cobrar-icon.png');
+    width: 100%;
+    max-width: 60px;
+  }
+  
+  /* hover */
+  .opcoesTransacoes:hover {
+    background-color: #fff;
+  }
+  
+  .opcoesTransacoes:hover p {
+    color: #1f6f54;
+  }
+  
+  .qrCode:hover figure {
+    background-image: url('../../img/qrcode-verde.png');
+  }
+  
+  .pix:hover figure {
+    background-image: url('../../img/pix-verde.png');
+  }
+  
+  .pagarBoleto:hover figure {
+    background-image: url('../../img/codigo-icon.png');
+  }
+  
+  .cobrar:hover figure {
+    background-image: url('../../img/cobrar-verde.png');
+  }
+  
+  .opcoesTransacoes figure img {
+    width: 100%;
+    max-width: 25px;
+    height: 20px;
+    opacity: 0;
+  }

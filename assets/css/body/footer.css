@@ -1,0 +1,36 @@
+.bg-rodape {
+    background-color: #fff;
+  }
+  
+  .menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menuItem {
+    text-align: center;
+  }
+  
+  .menuItem a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .menuItem img {
+    width: 100%;
+    max-width: 40px;
+  }
+  
+  .menuItem p {
+    margin-top: 20px;
+  }
+  
+  /* pagar */
+  .pagar img {
+    max-width: 80px;
+  }
+  
+  .pagar {
+    transform: translateY(-35px);
+  }

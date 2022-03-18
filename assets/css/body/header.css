@@ -1,0 +1,19 @@
+.bg-cabecalho {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .bg-cabecalho .container {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+  }
+  
+  .bg-cabecalho figure img {
+    width: 100;
+    max-width: 140px;
+  }
+  
+  .bg-cabecalho .logoPicPro {
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+  }

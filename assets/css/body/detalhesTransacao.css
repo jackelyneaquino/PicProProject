@@ -1,0 +1,165 @@
+/* desativando formas de pagamento para ativar no javascript */
+.formaDePagamento,
+.formaQrCode,
+.formaPix,
+.formaBoleto,
+.formaCobrar {
+  display: none;
+}
+
+/* ativar novamente os itens*/
+.ativo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* forma de pagamento */
+.bgTransacoes {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 15px solid #f0f0f0;
+  padding: 30px 0;
+  min-height: 450px;
+}
+
+/* display block enquanto enquanto forma de pagamento for ativo */
+.formaDePagamento::active .ativo {
+  display: block;
+}
+
+.formaDePagamento p {
+  font-size: 25px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+  padding: 30px 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.formaDePagamento img {
+  width: 100%;
+  margin: 30px 0 90px;
+}
+
+/* qrCode */
+
+.formaQrCode.ativo p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.formaQrCode.ativo img {
+  max-width: 180px;
+}
+
+.formaQrCode.ativo button {
+  background-color: #4a8864;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 50px 0 20px;
+  padding: 15px 150px;
+  cursor: pointer;
+}
+
+.formaQrCode.ativo a {
+  display: block;
+  color: #000;
+  font-weight: bold;
+}
+
+/*  pix */
+
+.formaPixOpcao {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  max-width: 500px;
+  padding: 14px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+  margin: 20px 0;
+}
+
+.formaPixOpcao img {
+  width: 100%;
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+.formaPixOpcao p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* boleto */
+
+.formaBoleto img {
+  width: 100%;
+  max-width: 80px;
+}
+
+.formaBoleto h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.formaBoleto p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.formaBoleto input {
+  width: 100%;
+  background-color: #f4f4f4;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 80px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* cobrar */
+
+.formaCobrar img {
+  width: 100%;
+  max-width: 80px;
+}
+
+.formaCobrar h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.formaCobrar p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.formaCobrarOpcao {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  max-width: 500px;
+  padding: 14px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+  margin: 20px 0;
+}
+
+.formaCobrarOpcao p {
+  margin-left: 10px;
+}
